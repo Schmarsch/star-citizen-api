@@ -2,7 +2,10 @@
     <UILoader :loading="!ships.length">
         <div class="p-3">
             <div>
-                <input type="text" v-model="filter" class="text-input" placeholder="Shipname"/>
+                <InputsInput
+                    label="Search for ship"
+                    v-model="filter"
+                />
             </div>
             <div class="flex flex-wrap flex-row justify-center">
                 <template v-for="ship in filteredShips">

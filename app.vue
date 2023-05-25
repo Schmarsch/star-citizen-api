@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar />
-        <div class="pb-20 pt-20">
+        <div class="pt-16">
             <router-view />
         </div>
     </div>
@@ -16,3 +16,6 @@ onMounted(() => {
     shipStore.fetchShips()
 })
 </script>
+
+<style lang="postcss" scoped>
+</style>

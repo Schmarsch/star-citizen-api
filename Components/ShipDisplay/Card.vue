@@ -19,7 +19,8 @@
         </div>
         <div>
             <span v-if="ship.buy_at" class="font-bold text-xl">
-                {{ ship.buy_at[0].price }} at {{ ship.buy_at[0].city_name }}
+                {{ dotPrice(ship.buy_at[0].price) }} UEC at
+                {{ ship.buy_at[0].city_name }}
             </span>
             <span v-else class="font-bold text-xl">
                 Not available for purchase

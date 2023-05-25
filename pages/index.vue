@@ -1,9 +1,5 @@
 <template>
-    <!-- <div v-for="ship in ships" :key="`${ship.serie}-${ship.name}`">
-        {{ ship.serie }} - {{ ship.name }}
-    </div> -->
-    <ShipDisplay/>
+    <div class="bg-gray-300 dark:bg-gray-700 pt-3">
+        <ShipDisplay />
+    </div>
 </template>
-
-<script setup lang="ts">
-</script>
